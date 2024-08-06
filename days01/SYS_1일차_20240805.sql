@@ -40,3 +40,17 @@ create user madang identified by madang;
 GRANT CONNECT, RESOURCE TO madang; -- 마당 계정 생성!
 --SELECT *
 --FROM dba_users;
+
+SELECT *
+FROM all_users;
+CREATE USER sarang IDENTIFIED BY sarang;
+GRANT CONNECT, RESOURCE TO sarang;
+
+ALTER USER sarang ACCOUNT UNLOCK;
+
+SELECT *
+FROM all_tables;
+
+SELECT *
+FROM dba_users;
+
