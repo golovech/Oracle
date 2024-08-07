@@ -109,6 +109,15 @@ WITH temp AS (
 SELECT *
 FROM temp
 WHERE pay >= 2000 AND pay <= 4000; 
+
+-- WITH + BETWEEN
+WITH temp AS (
+    SELECT emp.*, (sal+NVL(comm,0)) pay
+    FROM emp
+    )
+SELECT *
+FROM temp
+WHERE pay BETWEEN 2000 AND 4000;
 -- with - from - where - select 순서대로 하니까 pay를 써도 됨.
 
 -- 인라인뷰(inline view) : from절 뒤에 오는 서브쿼리
@@ -216,6 +225,12 @@ WHERE ssn LIKE '%-1%';
 WHERE name LIKE '%수';
 WHERE name LIKE '%정%';
 WHERE name LIKE '김%';
+
+SELECT *
+FROM insa
+W
+WHERE regexp_LIKE(name,'^[^김]');
+
 
 -- [문제] insa 테이블에서 김씨 성을 제외한 모든 사원  출력
 -- [문제]출신도가 서울, 부산, 대구 이면서 전화번호에 5 또는 7이 포함된 자료 출력하되
