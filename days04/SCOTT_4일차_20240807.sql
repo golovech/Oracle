@@ -281,6 +281,7 @@
         , TO_CHAR(TRUNC(SYSDATE, 'DD'),'DS TS') d -- ""
         , TRUNC(SYSDATE, 'MONTH') f -- 달에서 절삭, MM
         , TRUNC(SYSDATE, 'YEAR') g -- 년에서 절삭, YY
+        , TRUNC(SYSDATE, 'MM')
    FROM DUAL;
     
     
@@ -484,6 +485,13 @@
     SELECT COUNT(deptno)
     FROM emp
     WHERE deptno = 30;
+    
+    SELECT deptno
+         , CASE deptno WHEN 10 THEN a
+                    WHEN 20 THEN b
+                    c
+         END
+    FROM emp;
 
 
 
