@@ -11,6 +11,8 @@ GROUP BY D.DEPTNO, DNAME
 HAVING COUNT(EMPNO) = 0
 ORDER BY D.DEPTNO;
 
+
+
 -- 1. WITH절 풀이
 WITH T AS (
             SELECT DEPTNO
@@ -623,6 +625,7 @@ FROM INSA
 GROUP BY BUSEO
 ORDER BY BUSEO;
 
+---------------------------- [ 시험 ] --------------------------------
 
 -- * 테이블 생성, 수정, 삭제 * 
 -- DDL : CREATE, ALTER, DROP
