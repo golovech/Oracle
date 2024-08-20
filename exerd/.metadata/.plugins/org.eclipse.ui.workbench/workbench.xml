@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="8" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="130" y="130">
+<window height="1039" width="1376" x="254" y="0">
 <fastViewData fastViewLocation="1024"/>
-<intro standby="true"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -30,6 +29,8 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -43,8 +44,14 @@
 <editor id="com.tomato.exerd.term.ui.editor2.TermDictionaryEditor2" name="public.xdic" partName="public.xdic" path="C:/Class/Workspace/OracleClass/exerd/eXERD-Samples/public.xdic" title="public.xdic" tooltip="eXERD-Samples/public.xdic" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/eXERD-Samples/public.xdic"/>
 </editor>
-<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="untitled.exerd" partName="untitled.exerd" path="C:/Class/Workspace/OracleClass/exerd/scottProject/untitled.exerd" title="untitled.exerd" tooltip="scottProject/untitled.exerd" workbook="DefaultEditorWorkbook">
+<editor id="com.tomato.exerd.editor.DiagramEditor" name="untitled.exerd" partName="untitled.exerd" path="C:/Class/Workspace/OracleClass/exerd/scottProject/untitled.exerd" title="untitled.exerd" tooltip="scottProject/untitled.exerd" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/scottProject/untitled.exerd"/>
+</editor>
+<editor id="com.tomato.exerd.editor.DiagramEditor" name="video.exerd" partName="video.exerd" path="C:/Class/Workspace/OracleClass/exerd/scottProject/video.exerd" title="video.exerd" tooltip="scottProject/video.exerd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/scottProject/video.exerd"/>
+</editor>
+<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="Sist02.exerd" partName="Sist02.exerd" path="C:/Class/Workspace/OracleClass/exerd/scottProject/Sist02.exerd" title="Sist02.exerd" tooltip="scottProject/Sist02.exerd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/scottProject/Sist02.exerd"/>
 </editor>
 </editors>
 <views>
@@ -53,16 +60,16 @@
 <filters>
 <filter element=".*" isEnabled="false"/>
 </filters>
+<expanded>
+<element path="/scottProject"/>
+</expanded>
+<selection>
+<element path="/scottProject/Sist02.exerd"/>
+</selection>
 </viewState>
 </view>
 <view id="com.tomato.exerd.ui.views.thumbnail" partName="썸네일">
 <viewState/>
-</view>
-<view id="org.eclipse.ui.internal.introview" partName="환영 페이지">
-<viewState>
-<presentation currentPage="file:///C:/Program%20Files%20(x86)/eXERD/configuration/org.eclipse.osgi/bundles/143/1/.cp/nl/ko/content/html/standby.html" restore="true"/>
-<standbyPart/>
-</viewState>
 </view>
 <view id="com.tomato.exerd.validate.ui.ValidateView" partName="검토"/>
 <view id="com.tomato.exerd.modelview3.ModelView3" partName="모델">
@@ -113,7 +120,6 @@
 <view id="com.tomato.exerd.ui.views.domain"/>
 <view id="com.tomato.exerd.validate.ui.ValidateView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.internal.introview"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -126,13 +132,11 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@9803c2" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="leftFolder">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
-<page content="org.eclipse.ui.internal.introview" label="환영 페이지"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.18" ratioLeft="180" ratioRight="820" relationship="2" relative="leftFolder"/>
@@ -187,6 +191,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.term.ui.editor2.TermDictionaryEditor2" path="/eXERD-Samples/public.xdic"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/scottProject/join.exerd"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/scottProject/untitled.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/scottProject/video.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.term.ui.editor2.TermDictionaryEditor2" path="/eXERD-Samples/public.xdic"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/scottProject/Sist02.exerd"/>
 </editors>
 <item historyLabel="study.exerd" index="0"/>
 <item historyLabel="pos.exerd" index="1"/>
@@ -200,7 +207,18 @@
 <item historyLabel="join.exerd" index="3"/>
 <item historyLabel="untitled.exerd" index="4"/>
 <item historyLabel="join.exerd" index="3"/>
-<item active="true" historyLabel="untitled.exerd" index="4"/>
+<item historyLabel="untitled.exerd" index="4"/>
+<item historyLabel="video.exerd" index="5"/>
+<item historyLabel="public.xdic" index="6"/>
+<item historyLabel="video.exerd" index="5"/>
+<item historyLabel="Sist02.exerd" index="7"/>
+<item historyLabel="video.exerd" index="5"/>
+<item historyLabel="Sist02.exerd" index="7"/>
+<item historyLabel="video.exerd" index="5"/>
+<item historyLabel="untitled.exerd" index="4"/>
+<item historyLabel="Sist02.exerd" index="7"/>
+<item historyLabel="video.exerd" index="5"/>
+<item active="true" historyLabel="Sist02.exerd" index="7"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -218,6 +236,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="Sist02.exerd" tooltip="scottProject/Sist02.exerd">
+<persistable path="/scottProject/Sist02.exerd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="video.exerd" tooltip="scottProject/video.exerd">
+<persistable path="/scottProject/video.exerd"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="untitled.exerd" tooltip="scottProject/untitled.exerd">
 <persistable path="/scottProject/untitled.exerd"/>
 </file>
