@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
-<window height="1039" maximized="true" width="1376" x="254" y="0">
+<window height="1039" maximized="true" width="1126" x="559" y="26">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -34,6 +34,7 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
+<part id="9"/>
 </presentation>
 </folder>
 </info>
@@ -59,11 +60,14 @@
 <editor id="com.tomato.exerd.editor.DiagramEditor" name="설문조사(survey).exerd" partName="설문조사(survey).exerd" path="C:/Class/Workspace/OracleClass/exerd/scottProject/설문조사(survey).exerd" title="설문조사(survey).exerd" tooltip="scottProject/설문조사(survey).exerd" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/scottProject/설문조사(survey).exerd"/>
 </editor>
-<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="ohora.exerd" partName="ohora.exerd" title="ohora.exerd" tooltip="C:\Class\Workspace\OracleClass\exerd\Ohora\ohora.exerd" workbook="DefaultEditorWorkbook">
+<editor id="com.tomato.exerd.editor.DiagramEditor" name="ohora.exerd" partName="ohora.exerd" title="ohora.exerd" tooltip="C:\Class\Workspace\OracleClass\exerd\Ohora\ohora.exerd" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Class/Workspace/OracleClass/exerd/Ohora/ohora.exerd"/>
 </editor>
 <editor id="com.tomato.exerd.editor.DiagramEditor" name="오호라프로젝트.exerd" partName="오호라프로젝트.exerd" title="오호라프로젝트.exerd" tooltip="C:\Users\User\Documents\카카오톡 받은 파일\오호라프로젝트.exerd" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/User/Documents/카카오톡%20받은%20파일/오호라프로젝트.exerd"/>
+</editor>
+<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="ohora_sarang.exerd" partName="ohora_sarang.exerd" path="C:/Class/Workspace/OracleClass/exerd/eXERD-Samples/ohora_sarang.exerd" title="ohora_sarang.exerd" tooltip="eXERD-Samples/ohora_sarang.exerd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/eXERD-Samples/ohora_sarang.exerd"/>
 </editor>
 </editors>
 <views>
@@ -152,7 +156,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.18" ratioLeft="180" ratioRight="820" relationship="2" relative="leftFolder"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@13f3ba0" ratio="0.797219" ratioLeft="1376" ratioRight="350" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@13f3ba0" ratio="0.8730703" ratioLeft="1018" ratioRight="148" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.tomato.exerd.ui.views.thumbnail" appearance="2" expanded="2">
 <page content="com.tomato.exerd.ui.views.thumbnail" label="썸네일"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -211,6 +215,7 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" uri="file:/C:/Class/Workspace/OracleClass/exerd/Ohora/ohora.exerd"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/scottProject/설문조사(survey).exerd"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" uri="file:/C:/Users/User/Documents/카카오톡%20받은%20파일/오호라프로젝트.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/eXERD-Samples/ohora_sarang.exerd"/>
 </editors>
 <item historyLabel="study.exerd" index="0"/>
 <item historyLabel="pos.exerd" index="1"/>
@@ -255,7 +260,8 @@
 <item historyLabel="오호라프로젝트.exerd" index="12"/>
 <item historyLabel="ohora.exerd" index="10"/>
 <item historyLabel="오호라프로젝트.exerd" index="12"/>
-<item active="true" historyLabel="ohora.exerd" index="10"/>
+<item historyLabel="ohora.exerd" index="10"/>
+<item active="true" historyLabel="ohora_sarang.exerd" index="13"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -273,6 +279,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="ohora_sarang.exerd" tooltip="eXERD-Samples/ohora_sarang.exerd">
+<persistable path="/eXERD-Samples/ohora_sarang.exerd"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="오호라프로젝트.exerd" tooltip="C:\Users\User\Documents\카카오톡 받은 파일\오호라프로젝트.exerd">
 <persistable uri="file:/C:/Users/User/Documents/카카오톡%20받은%20파일/오호라프로젝트.exerd"/>
 </file>
